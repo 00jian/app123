@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view>
+    <image style="height: 100px;width: 100px;" src="/images/login/u241.png"></image>
+  </view>
+  <view style="padding-top: 5px;">黄飞鸿</view>
+  <view style="padding-top: 5px;">18959130090</view>
+  <button bindtap="toPage" data-id="1" class="_button">直接登录</button>
+  <button style="margin-top: 15px; width: 90%;">换个账号登录</button>
+</view>
+

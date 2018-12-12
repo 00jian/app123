@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="index_bg">
+ <image class="index_img_bg" mode="widthFix" src='/images/index/u2.png'></image>
+</view>
+<view class="modalDlg" wx:if="{{showModal}}">
+   <view style="width: 100%; padding: 20px;">
+    <view style="float: left; padding-left: 20px">福州</view>
+    <view style="float: right; padding-right: 20px; font-size: 14px;">
+      <image style="height: 20px; width: 20px; vertical-align: bottom;" src='/images/index/u21.png'></image>
+      我的位置
+    </view>
+   </view>
+   <view>
+      <view style="display: inline-block;">
+        10月16号 <view style="padding-left: 5px;display: inline-block;font-size: 12px;">今天</view>
+      </view>
+      <view style="position: relative;display: inline-block;padding: 0px 5px;">
+        <view style="width: 100%;position: absolute; left: 0px; top: -10px;text-align: center; font-size: 14px; color: #FF5A00">共2晚</view>
+        <image style="vertical-align: middle;height: 1px; width: 50px; " src="/images/index/u31.png"></image>
+      </view>
+      <view style="display: inline-block;">
+        10月18号 <view style="padding-left: 5px;display: inline-block;font-size: 12px;">周三</view>
+      </view>
+    </view>
+    <view style="width: 90%;text-align: left; padding: 20px;">不限人数</view>
+    <button style="width: 90%; color: #fff;background-color:#FF5A00;">查询旅店</button>
+</view>

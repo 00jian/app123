@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/reg/reg"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "胶囊旅店",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF5A00",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/order/u296.png",
+      "selectedIconPath": "images/index/u57.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/index/u61.png",
+        "selectedIconPath": "images/order/u302.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/index/u65.png",
+        "selectedIconPath": "images/my/u479.png"
+      }
+    ]
+  }
+}

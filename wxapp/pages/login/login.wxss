@@ -1,0 +1,5 @@
+/* pages/login/login.wxss */
+page{
+  font-size: 14px;
+  background-color: #F3F3F3;
+}

@@ -1,0 +1,28 @@
+<!--pages/reg/reg.wxml-->
+<view>
+  <view class="_input">
+    <view class="_image">
+      <image src="/images/login/u204.png"></image>
+    </view>
+    <view class="_image_input">
+      <input placeholder='请填写手机号码'></input>
+    </view>
+    <view class="_image_input" style="float: right; margin-right: 10px;">
+      <button size="mini" style="color: #fff;background-color:#FF5A00;">获取验证码</button>
+    </view>
+  </view>
+  <view class="_input">
+    <view class="_image">
+      <image src="/images/login/u206.png"></image>
+    </view>
+    <view class="_image_input">
+      <input placeholder='请输入验证码'></input>
+    </view>
+  </view>
+  <button bindtap="toPageIndex" class="_button">登录</button>
+  <view class="_info">
+    注册/登录即表示同意
+    <view style="display: inline-block;color: #ff5a00">《胶囊旅店服务协议》</view>
+    <view style="display: inline-block;color: #ff5a00">《隐私政策》</view>
+  </view>
+</view>
